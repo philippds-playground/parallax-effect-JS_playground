@@ -25,29 +25,59 @@
     <script src="./js/parallax.min.js"></script>
   </head>
   <body>
+
     <div class="parallax-container"
-    data-parallax="scroll"
-    data-position="top"
-    data-bleed="10"
-    data-image-src="./images/pm1.jpg"
-    data-natural-width="1400"
-    data-natural-height="900">
-    <div class="container"><h2 id="Logo">Phil & Jasmin</h2></div>
+      data-parallax="scroll"
+      data-position="top"
+      data-bleed="10"
+      data-image-src="./images/pm1.jpg"
+      data-natural-width="1400"
+      data-natural-height="900">
+
+      <div id="Menu">
+        <nav role="navigation">
+          <div id="menuToggle">
+            <input type="checkbox" />
+              <span></span>
+              <span></span>
+              <span></span>
+              <ul id="menu">
+                <a href="#"><li>Home</li></a>
+                <a href="#"><li>About</li></a>
+                <a href="#"><li>Info</li></a>
+                <a href="#"><li>Contact</li></a>
+                <a href="https://erikterwan.com/" target="_blank"><li>Show me more</li></a>
+              </ul>
+          </div>
+      </div>
+
+      <div class="header"></div>
+      <div id="Logo">
+        <h2>Phil & Jasmin</h2>
+      </div>
     </div>
+
+    <div class="space"></div>
     <br>
     <div class="container">
-    <h3>Product</h3>
-    <br>
-    <p>text</p>
-    <p>text</p>
-    <p>text</p>
-    <p>text</p>
-    <p>text</p>
-    <p>text</p>
-    <p>text</p>
-    <p>text</p>
-    <p>text</p>
+      <div class="row">
+        <div class="col-md-4">
+          <center>PICTURE 1</center>
+        </div>
 
+        <div class="col-md-4">
+          <center>PICTURE 2</center>
+        </div>
+
+        <div class="col-md-4">
+          <center>PICTURE 3</center>
+        </div>
+      </div>
     </div>
+
+
+    <script src="./js/sticky.js">
+    </script>
+
   </body>
 </html>
