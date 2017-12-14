@@ -1,9 +1,16 @@
 h2 {
     display: block;
     font-size: 1.5em;
-    padding: 260px;
+    padding: 280px;
     font-weight: bold;
     text-align: center;
+}
+
+#Logo {
+  font-size: 36px;
+  color: black;
+  font-weight: bold;
+  white-space: nowrap;
 }
 
 .parallax-container {
